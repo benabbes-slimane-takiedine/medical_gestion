@@ -13,11 +13,11 @@
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min2.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
-  
+
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-  
+
   <section id="banner" class="banner">
     <div class="bg-color">
       <nav class="navbar navbar-default navbar-fixed-top">
@@ -46,13 +46,13 @@
                   </li>
                     <li class="nav-item">
                         @if (Route::has('register'))
-                           <a href="{{ route('register') }}">Register</a>
+                           <a href="{{ route('register') }}">Registeration</a>
                     </li>
                         @endif
                     @endauth
-                 
+
                  @endif
-              
+
               </ul>
             </div>
           </div>
@@ -192,7 +192,7 @@
                 <input type="text" name="name" class="form-control br-radius-zero" id="name" placeholder="Votre nom" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                 <div class="validation"></div>
               </div>
-              
+
               <div class="form-group">
                 <textarea class="form-control br-radius-zero" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Cas d'urgence"></textarea>
                 <div class="validation"></div>
